@@ -3,6 +3,10 @@
 
 AURA (Access Unified Resources Ambulatory) is a platform that provides management resources for the Bosch outpatient clinic in Campinas.
 
+<p align="center">
+     <a href="https://aura-bosch.netlify.app">📱 Visit this Project</a>
+</p>
+
 ## Tech Stack
 
 <!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
