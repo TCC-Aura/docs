@@ -1,0 +1,73 @@
+
+:root {
+  --ifm-color-primary: #007BC0;
+  --ifm-color-primary-dark: #ff00bf;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #ff00ee;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #007BC0;
+  --ifm-color-primary-dark: #ff00bf;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar {
+  width: 12px;              
+}
+
+body::-webkit-scrollbar-track {
+  background: none;      
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2f8ec5;   
+  border-radius: 20px;
+}
+
+
+
+[data-theme='light'] .footer {
+  background-color: #EDF7FF;  
+  color: #005f96;             
+}
+
+[data-theme='light'] .footer__title {
+  color: #007BC0;  
+}
+
+[data-theme='light'] .footer a {
+  color: #007BC0; 
+  transition: 0.5s;
+}
+
+[data-theme='light'] .footer a:hover {
+  color: #005f96; 
+}
+
+[data-theme='dark'] .footer {
+  background-color: #333333; 
+  color: #fff; 
+}
+
+[data-theme='dark'] .footer__link-title {
+  color: #ffcc00;
+}
+
+[data-theme='dark'] .footer a {
+  color: #007BC0;
+}
+
+[data-theme='dark'] .footer a:hover {
+  color: #007BC0;
+}

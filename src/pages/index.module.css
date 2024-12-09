@@ -1,0 +1,154 @@
+.heroBanner {
+  padding: 4rem 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; 
+  gap: 10px; 
+}
+
+.wrapper img {
+  width: 120px;
+  margin-bottom: 0;
+}
+
+.staticTxt {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.dynamicTxts {
+  margin-left: -7px;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px; 
+}
+
+.dynamicTxts li {
+  list-style: none;
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+  top: 0;
+  position: relative;
+  animation: slide 12s steps(4) infinite;
+}
+
+.dynamicTxts li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #007BC0;
+  border-left: 2px solid white;
+  animation: typing 3s steps(10) infinite;
+}
+
+
+.logo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+
+  img {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .wrapper {
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px;
+  }
+
+  .staticTxt {
+    font-size: 40px; 
+    margin-bottom: 10px;
+  }
+
+  .dynamicTxts li {
+    font-size: 40px; 
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 1rem;
+  }
+
+  .staticTxt {
+    font-size: 30px; /* Reduzindo mais o tamanho do texto */
+    margin-bottom: 5px;
+  }
+
+  .dynamicTxts li {
+    font-size: 30px; /* Reduzindo o tamanho das palavras */
+  }
+
+  .wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper img{
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroBanner {
+    padding: 1rem 0.5rem; 
+  }
+
+  .staticTxt {
+    font-size: 25px; 
+    margin-top: 4px;
+  }
+
+  .dynamicTxts li {
+    font-size: 25px; 
+    margin-left: -28px;
+  }
+
+
+  .logo img {
+    width: 40px; 
+  }
+}
+
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}

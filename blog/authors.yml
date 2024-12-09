@@ -1,0 +1,63 @@
+duda:
+  name: Maria Eduarda Catalão
+  title: Full-Stack Developer 
+  url: https://github.com/dudacatalao
+  image_url: /img/authors/duda.jpg
+  page: true
+  socials:
+    github: dudacatalao
+
+ju:
+  name: Juliana Verneck
+  title: UX/UI Designer
+  url: https://github.com/Verneckjuliana
+  image_url: /img/authors/ju.jpg
+  page: true
+  socials:
+    github: Verneckjuliana
+
+isa:
+  name: Isabelli Marques
+  title: Full-Stack Developer 
+  url: https://github.com/isabellimrqs
+  image_url: /img/authors/isa.png
+  page: true
+  socials:
+    github: isabellimrqs
+
+layra:
+  name: Layra Fernandes
+  title: Full-Stack Developer 
+  url: https://github.com/layrasfc
+  image_url: /img/authors/layra.jpg
+  page: true
+  socials:
+    github: layrasfc
+
+emanu:
+  name: Emanuelle Jesus
+  title: Back-End Developer 
+  url: https://github.com/m4nella
+  image_url: /img/authors/emanu.jpg
+  page: true
+  socials:
+    github: m4nella
+
+malu:
+  name: Maria Luiza Ramos
+  title: Full-Stack Developer 
+  url: https://github.com/mluizaramos
+  image_url: /img/authors/malu.jpg
+  page: true
+  socials:
+    github: mluizaramos
+
+gi:
+  name: Giovanna Zile
+  title: Data Analyst
+  url: https://github.com/zilegi
+  image_url: /img/authors/gi.jpg
+  page: true
+  socials:
+    github: zilegi
+
