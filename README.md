@@ -1,41 +1,21 @@
-# Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<h1 align="center" style="font-weight: bold;">Documentation AURA 💻</h1>
 
-### Installation
+AURA (Access Unified Resources Ambulatory) is a platform that provides management resources for the Bosch outpatient clinic in Campinas.
 
-```
-$ yarn
-```
+## Tech Stack
 
-### Local Development
+<!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
 
-```
-$ yarn start
-```
+[![My Skills](https://skillicons.dev/icons?i=ts,css,docker)](https://skillicons.dev)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Getting Started
 
-### Build
+1. **Install Dependencies**: `npm install or yarn`
+2. **Create containers**: `docker-compose up --build`
+5. **Start Developing**: `npm run start`
 
-```
-$ yarn build
-```
+## Contribute
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+1. **Clone project**: `git clone https://github.com/Fernanda-Kipper/Readme-Templates.git`
+2. **Create feature/branch**: `git checkout -b feature/NAME`
